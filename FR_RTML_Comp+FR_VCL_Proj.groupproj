@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{16A82707-77F1-44D2-877A-1549EEE87C42}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FR RTML Component\FR_RTML_Component.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="VCL project\FR_VCLProject.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FR_RTML_Component">
+        <MSBuild Projects="FR RTML Component\FR_RTML_Component.dproj"/>
+    </Target>
+    <Target Name="FR_RTML_Component:Clean">
+        <MSBuild Projects="FR RTML Component\FR_RTML_Component.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FR_RTML_Component:Make">
+        <MSBuild Projects="FR RTML Component\FR_RTML_Component.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FR_VCLProject">
+        <MSBuild Projects="VCL project\FR_VCLProject.dproj"/>
+    </Target>
+    <Target Name="FR_VCLProject:Clean">
+        <MSBuild Projects="VCL project\FR_VCLProject.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FR_VCLProject:Make">
+        <MSBuild Projects="VCL project\FR_VCLProject.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FR_RTML_Component;FR_VCLProject"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FR_RTML_Component:Clean;FR_VCLProject:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FR_RTML_Component:Make;FR_VCLProject:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

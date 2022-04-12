@@ -1,0 +1,65 @@
+unit frxComponents;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, System.StrUtils, Vcl.Graphics, frxClass,
+  frxDsgnIntf, frxRes,
+  frxDesgn,uRTMLLabel;
+
+type
+  TfrxRTMLLabel = class(TRTMLLabel)
+
+  public
+    constructor Create(AOwner: TComponent);
+    destructor Destroy; override;
+  private
+
+    procedure Draw(Canvas: TCanvas; ScaleX, ScaleY, OffsetX, OffsetY: Extended);
+    class function GetDescription: string; static;
+  end;
+
+
+implementation
+
+
+constructor TfrxRTMLLabel.Create(AOwner: TComponent);
+begin
+  inherited;
+
+end;
+
+destructor TfrxRTMLLabel.Destroy;
+begin
+
+  inherited;
+end;
+
+procedure TfrxRTMLLabel.Draw(Canvas: TCanvas;
+  ScaleX, ScaleY, OffsetX, OffsetY: Extended);
+begin
+
+  inherited;
+end;
+
+class function TfrxRTMLLabel.GetDescription: string;
+begin
+  result := 'RTML Label ';
+end;
+
+var
+  Bmp: TBitmap;
+
+initialization
+
+Bmp := TBitmap.Create;
+Bmp.LoadFromFile('frxRTMLLabel.bmp');// LoadFromResourceName(hInstance, 'frxRTMLLabel');
+frxObjects.RegisterObject(TfrxRTMLLabel, Bmp);
+
+finalization
+
+frxObjects.Unregister(TfrxRTMLLabel);
+Bmp.Free;
+
+end.
+

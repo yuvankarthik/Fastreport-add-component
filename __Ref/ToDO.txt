@@ -1,0 +1,17 @@
+1) In the FR component, Memo property needs to be handled.
+As of now, we are dealing with the "Text" property, where we can not input
+Multi-line data.
+[Few changes done regarding this and commented in uRTMLLabel]
+
+2) In FR design mode, after placing the component and feeding the input, if we do resize, then the content should get updated accordingly.
+[The data is stretching to the component size. but the image is not recreated, due to that a pixel resolution issue is coming. I hope, some minor tweaks could help to resolve this (calling update at right point).]
+-Set false to stretch property solved this issue. | Do it in constructor | remove this property from comp
+
+3) TRTMLLabel inherited from TFrxPictureView class. Due to that, TFrxPictureViews published properties will be shown in the property editor. It can not be hidden (but we can try to invalidate its functionality).
+
+4) Strikeout is working but strikeout line color not working.
+
+
+
+
+These can be fixed , if we inherit TfrxMemoView instead of TfrxPictureView . But TfrxMemoView Draw needs to be handled accordingly.

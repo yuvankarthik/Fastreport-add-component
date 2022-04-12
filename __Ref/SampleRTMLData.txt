@@ -1,0 +1,24 @@
+
+SAMPLE DATA
+************
+
+Apple <image:"G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\__ref\Images\Apple.png">
+Z<superscript>2</superscript> = X<superscript>2</superscript> + Y<superscript>2</superscript>
+The item is available in navy, <strike:#FF0000>teal</strike> or sage.
+The <shadow>Most Important</shadow> Point
+Text can be <color:"#FF0000">red</color>, <color:"#00FF00">green</color>,<color:"#0000FF">blue</color> or any other color.
+Text can be <size:"24">big</size> or <size:"9">small</size>.
+<leftmargin:"18"><rightmargin:"18">
+The item is available in navy, <strike:"#FF0000">teal</strike> or sage.
+<linespacing:"-6">
+Text can be <font:"Algerian":"20">fancy</font> or <font:"Courier":"15">plain</font>.
+Here is another way to insert the <char:x3C> character.
+</linespacing>
+
+This is black, <style><color:"#0000FF">this is blue,     <color:"#FF0000">this is red, </style> and this is black again.
+Some of this text is <baseline:"8">shifted up<baseline:"0"> and some of it is <baseline:"-6"/>shifted down
+
+<font:"Futura":"24"><color:"#0000CC"><align="center"><leftmargin:"0"><definestyle:"Title">
+<style:"Title">Feb 2022 Results</style>
+
+<tag:"(((":")))">(((color:"#00FF00")))some green text (((/tag)))<color:"#FF0000">some red text </color>.

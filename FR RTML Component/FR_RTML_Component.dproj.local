@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/02/12 19:37:29.000.221,=rtl.dcp</Transaction>
+    <Transaction>2022/02/12 19:37:38.000.869,=C:\Users\karthik.AGILELABS\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/12 19:39:10.000.601,C:\Users\karthik.AGILELABS\Documents\Embarcadero\Studio\Projects\Unit1.pas=G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy\frxDummy.pas</Transaction>
+    <Transaction>2022/02/12 19:46:14.000.259,C:\Users\karthik.AGILELABS\Documents\Embarcadero\Studio\Projects\Package1.dproj=G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy\dummypkg.dproj</Transaction>
+    <Transaction>2022/02/12 19:47:06.000.251,=vcl.dcp</Transaction>
+    <Transaction>2022/02/12 19:47:06.000.273,=vclimg.dcp</Transaction>
+    <Transaction>2022/02/12 19:47:06.000.293,=vclx.dcp</Transaction>
+    <Transaction>2022/02/12 19:50:24.000.685,G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy\frxDummy.pas=G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy\frxComponents.pas</Transaction>
+    <Transaction>2022/02/12 20:20:21.000.618,=fs26.dcp</Transaction>
+    <Transaction>2022/02/12 20:20:21.000.639,=frx26.dcp</Transaction>
+    <Transaction>2022/02/14 12:06:12.000.632,=G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy3\uRTMLLabel.pas</Transaction>
+    <Transaction>2022/02/15 16:43:19.000.492,=fmx.dcp</Transaction>
+    <Transaction>2022/02/15 20:07:09.000.897,G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\FR_RTML_Component\FR RTML Component\FR_RTML_Component.dproj=G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy4\dummypkg.dproj</Transaction>
+    <Transaction>2022/02/15 20:07:27.000.999,G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\FR_RTML_Component\FR RTML Component\frxComponents.pas=G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy4\frxComponents.pas</Transaction>
+    <Transaction>2022/02/15 20:07:41.000.361,G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\FR_RTML_Component\FR RTML Component\uRTMLLabel.pas=G:\MyWork_FL\Delphi\2022\VCL  Add new component to FR\_dummy4\uRTMLLabel.pas</Transaction>
+  </Transactions>
+</BorlandProject>
